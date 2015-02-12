@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tom Knudson | Developer</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500,700,400italic,500italic|Changa+One|Open+Sans:400italic,700italic,700,800,400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <a href="index.html" id="logo">
+        <h1>Tom Knudson</h1>
+        <h2>Developer</h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="selected">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+      <div id="wrapper">
+        <section>
+          <ul id="gallery">
+            <h1 id="portfolioheader">What I've worked with</h1>
+            <li>
+              <a href="https://github.com/Tknudson24/SmallProjects/blob/master/TimeUntil">
+                <p id="java">JAVA</p>
+                  <h6>Here is a sample of a small project I've done with Java</h6>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Tknudson24/SmallProjects/blob/master/Acronym%20Expander">
+                <p>PYTHON</p>
+                  <h6>Here is a sample of a small project I've done with Python</h6>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Tknudson24/SmallProjects/blob/master/HTML%20for%20my%20website">
+                <p>HTML</p>
+                  <h6>Here is a sample of some of the HTML code I used to create this website</h6>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Tknudson24/SmallProjects/blob/master/CSS%20for%20my%20website">
+                <p>CSS</p>
+                  <h6>Here is a sample of of some of the CSS code I used to syle this website</h6>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <footer>
+          <a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile"><img src="img/linkedin.png" alt="Linkedin Logo" class="social-icon"></a>
+          <a href="http://facebook.com/tommy.knudson.9"><img src="img/fb_logo.png" alt="Facebook Logo" class="social-icon"></a>
+          <p>&copy; 2015 Tom Knudson.</p>
+        </footer>
+      </div>
