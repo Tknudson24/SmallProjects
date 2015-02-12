@@ -1,0 +1,19 @@
+# common to all solutions
+acronyms = {
+    "lol": "laugh out loud",
+    "dw": "don't worry",
+    "hf": "have fun",
+    "gg": "good game",
+    "brb": "be right back",
+    "g2g": "got to go",
+    "wp": "well played",
+    "gl": "good luck",
+    "imo": "in my opinion",
+    "tl;dr": "too long; didn't read"
+}
+
+import re
+text = input()
+for short, long in acronyms.items():
+   text = re.sub(r"\b"+short+r"\b", long, text)
+print(text)
