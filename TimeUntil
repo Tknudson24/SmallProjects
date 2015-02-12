@@ -1,0 +1,17 @@
+package timeuntil;
+import java.time.LocalDate;
+import java.time.Period;
+import java.time.format.DateTimeFormatter;
+
+public class TimeUntil {
+    public static void main(String[] args){
+        LocalDate now = LocalDate.now();
+
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy MM dd");
+        for(String dateString : args){
+            LocalDate futureDate = LocalDate.parse(dateString,formatter);
+            Period timeUntil = now.until(futureDate);
+            System.out.printf("%s years %s months %s days until %s\n",timeUntil.getYears(),timeUntil.getMonths(),timeUntil.getDays(),futureDate);           
+        }
+    }
+}
